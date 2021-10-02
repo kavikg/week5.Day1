@@ -16,7 +16,7 @@ public class DeleteIncident extends SnowincidentBaseclass {
 		// TODO Auto-generated method stub
 		driver.findElement(By.xpath("(//div[contains(text(),'Incidents')])[3]")).click();
 		driver.switchTo().frame("gsft_main");
-		driver.findElement(By.xpath("(//input[@id='incident_table_header_search_control'])[1]")).sendKeys("INC0010014",
+		driver.findElement(By.xpath("(//input[@id='incident_table_header_search_control'])[1]")).sendKeys("INC0010018",
 				Keys.ENTER);
 		driver.findElement(By.xpath("//tbody[@class='list2_body']//tr//td[3]/a")).click();
 		driver.findElement(
