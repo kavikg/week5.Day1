@@ -3,9 +3,9 @@
 <suite name="Suite">
 	<test name="Test">
 		<classes>
-			<class name="week5.day1.AssignIncident" />
 			<class name="week5.day1.CreateIncident" />
 			<class name="week5.day1.UpdateIncident" />
+			<class name="week5.day1.AssignIncident" />
 			<class name="week5.day1.DeleteIncident" />
 		</classes>
 	</test> <!-- Test -->
